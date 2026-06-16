@@ -1,28 +1,10 @@
-MO Ruder - hjemmeside v4
+MO Vinduespudsning v5
 
-Filer:
-- index.html
-- style.css
-- script.js
-- assets/
+Opdateret:
+- Mobilvenlig layout og bedre mobilmenu.
+- Sticky mobilknapper nederst til Ring og SMS.
+- Logoet scroller nu tilbage til toppen/start af hjemmesiden.
+- Telefon: 42 79 33 62.
+- Ingen email og ingen CVR.
 
-Opdateret efter dine krav:
-- Telefon: 42 79 33 62
-- Ingen email
-- Ingen CVR
-- Kun fra-pris
-- Ingen tekst om hvad I ikke laver
-- Fokus på huse, villaer og rækkehuse
-
-Sådan hoster du hurtigt på Netlify:
-1. Pak ZIP-filen ud.
-2. Gå til netlify.com.
-3. Add new site -> Deploy manually.
-4. Træk hele mappen ind.
-5. Skift site name til fx mo-ruder eller mo-vinduespudsning.
-
-Sådan hoster du på GitHub Pages:
-1. Upload alle filerne til dit repository.
-2. Gå til Settings -> Pages.
-3. Vælg branch main og root.
-4. Vent 1-3 minutter.
+Upload alt indholdet i denne mappe til GitHub Pages eller Netlify.
