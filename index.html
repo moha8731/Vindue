@@ -3,189 +3,169 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>MO Vinduespudsning | Lokal vinduespudser</title>
-  <meta name="description" content="Lokal vinduespudsning til huse, villaer og rækkehuse. Få en hurtig fra-pris på SMS." />
-  <meta name="theme-color" content="#071421" />
-  <meta property="og:title" content="MO Vinduespudsning" />
-  <meta property="og:description" content="Rene ruder til huse, villaer og rækkehuse. Send en SMS og få en hurtig fra-pris." />
+  <title>MO Ruder | Vinduespudsning til huse, villaer og rækkehuse</title>
+  <meta name="description" content="Lokal vinduespudsning til huse, villaer og rækkehuse. Få en hurtig fra-pris på SMS. Ring 42 79 33 62." />
+  <meta name="theme-color" content="#071A2B" />
+  <meta property="og:title" content="MO Ruder | Lokal vinduespudsning" />
+  <meta property="og:description" content="Vinduespudsning til huse, villaer og rækkehuse. Send adresse på SMS og få en fra-pris." />
   <meta property="og:image" content="assets/hero-squeegee.jpg" />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="header" id="top">
-    <a class="brand" href="#top" aria-label="MO Vinduespudsning forside">
-      <img src="assets/logo.svg" alt="MO Vinduespudsning" />
-    </a>
+  <a class="skip-link" href="#main">Spring til indhold</a>
 
-    <button class="menu-toggle" aria-label="Åbn menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="MO Ruder forside">
+        <img src="assets/logo.svg" alt="MO Ruder Vinduespudsning" />
+      </a>
 
-    <nav class="nav" aria-label="Hovedmenu">
-      <a href="#ydelser">Ydelser</a>
-      <a href="#pris">Pris</a>
-      <a href="#proces">Sådan virker det</a>
-      <a href="#faq">FAQ</a>
-      <a href="#kontakt">Kontakt</a>
-    </nav>
+      <button class="menu-button" type="button" aria-label="Åbn menu" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
 
-    <a class="header-phone" href="tel:+4542793362">42 79 33 62</a>
+      <nav class="menu" id="menu" aria-label="Hovedmenu">
+        <a href="#ydelser">Ydelser</a>
+        <a href="#pris">Pris</a>
+        <a href="#proces">Sådan foregår det</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+
+      <a class="header-call" href="tel:+4542793362">42 79 33 62</a>
+    </div>
   </header>
 
-  <main>
-    <section class="hero">
-      <div class="hero-bg" aria-hidden="true"></div>
-      <div class="hero-shine" aria-hidden="true"></div>
-      <div class="hero-wrap">
-        <div class="hero-copy reveal">
-          <p class="eyebrow">Lokal vinduespudser • huse, villaer og rækkehuse</p>
-          <h1>Ruder der får hjemmet til at se nyt ud.</h1>
-          <p class="hero-text">Udvendig og indvendig vinduespudsning med fokus på rene kanter, flot finish og nem booking på SMS.</p>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-image" aria-hidden="true"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="kicker">Lokal vinduespudsning</p>
+          <h1 id="hero-title">Klare ruder til huse, villaer og rækkehuse.</h1>
+          <p class="lead">Udvendig og indvendig vinduespudsning med fokus på pænt resultat, god aftale og nem kontakt.</p>
 
           <div class="hero-actions">
-            <a class="btn btn-primary" href="sms:+4542793362?body=Hej%20MO%20Vinduespudsning%2C%20jeg%20vil%20gerne%20have%20en%20fra-pris.%20Min%20adresse%20er%3A%20">Få pris på SMS</a>
-            <a class="btn btn-secondary" href="tel:+4542793362">Ring 42 79 33 62</a>
+            <a class="btn btn-primary" href="sms:+4542793362?body=Hej%2C%20jeg%20vil%20gerne%20have%20en%20fra-pris%20p%C3%A5%20vinduespudsning.%20Min%20adresse%20er%3A%20">Få fra-pris på SMS</a>
+            <a class="btn btn-ghost" href="tel:+4542793362">Ring 42 79 33 62</a>
           </div>
 
-          <div class="proof-row" aria-label="Fordele">
-            <span>✓ Hurtigt svar</span>
-            <span>✓ Betaling efter aftale</span>
-            <span>✓ Ingen højhuse</span>
+          <div class="micro-proof" aria-label="Fordele">
+            <span>Huse</span>
+            <span>Villaer</span>
+            <span>Rækkehuse</span>
+            <span>Faste aftaler</span>
           </div>
         </div>
 
-        <aside class="quote-card reveal" aria-label="Hurtig booking">
-          <span class="pulse"></span>
-          <p class="small">Hurtig fra-pris</p>
-          <strong>Send adresse + evt. billede</strong>
-          <p>Så får du en pris før vi booker tiden.</p>
-          <a href="sms:+4542793362?body=Hej%20MO%20Vinduespudsning%2C%20jeg%20vil%20gerne%20have%20en%20fra-pris.%20Min%20adresse%20er%3A%20">Start SMS</a>
+        <aside class="hero-card" aria-label="Hurtig pris">
+          <p>Hurtig pris</p>
+          <strong>Send adresse på SMS</strong>
+          <span>Vi svarer med en fra-pris og finder en tid der passer.</span>
         </aside>
       </div>
     </section>
 
-    <section class="trust-bar" aria-label="Kort overblik">
-      <div><strong>Huse</strong><span>almindelige private hjem</span></div>
-      <div><strong>Villaer</strong><span>store og små boliger</span></div>
-      <div><strong>Rækkehuse</strong><span>hurtige faste ruter</span></div>
-      <div><strong>Faste aftaler</strong><span>hver 4., 6. eller 8. uge</span></div>
+    <section class="strip" aria-label="Kort info">
+      <div><strong>Fra 199 kr.</strong><span>afhænger af opgaven</span></div>
+      <div><strong>Betal efter aftale</strong><span>nemt og overskueligt</span></div>
+      <div><strong>Fast rute</strong><span>hver 4, 6 eller 8 uge</span></div>
+      <div><strong>Direkte kontakt</strong><span>ring eller send SMS</span></div>
     </section>
 
-    <section class="section intro" id="ydelser">
-      <div class="intro-text reveal">
-        <p class="eyebrow dark">Simpelt, pænt og professionelt</p>
-        <h2>Vi holder os til det, vi kan gøre ordentligt.</h2>
-        <p>Vi fokuserer på vinduespudsning til huse, villaer og rækkehuse. Det gør arbejdet mere effektivt, prisen mere fair og resultatet mere stabilt.</p>
-        <div class="included-box">
-          <div>
-            <strong>Vi laver</strong>
-            <span>Udvendig pudsning, indvendig pudsning, faste ruter og mindre erhverv i jordhøjde.</span>
-          </div>
-          <div>
-            <strong>Vi laver ikke</strong>
-            <span>Højhuse, liftopgaver, rappelling eller store facadeopgaver i højden.</span>
-          </div>
-        </div>
+    <section class="section split" id="ydelser">
+      <div class="split-copy">
+        <p class="kicker dark">Hvad vi laver</p>
+        <h2>Vinduespudsning gjort simpelt.</h2>
+        <p>Vi hjælper private med rene ruder uden en masse bøvl. Skriv adressen, fortæl hvad du ønsker, og så får du en pris før vi aftaler arbejdet.</p>
       </div>
-      <div class="intro-media reveal">
-        <img src="assets/worker-house.jpg" alt="Vinduespudser arbejder ved et moderne hus" />
+      <div class="image-panel">
+        <img src="assets/worker-house.jpg" alt="Vinduespudser ved et moderne hus" />
       </div>
     </section>
 
-    <section class="section services">
-      <div class="section-head reveal">
-        <p class="eyebrow dark">Ydelser</p>
-        <h2>Det kunderne skal kunne forstå på 5 sekunder.</h2>
-      </div>
-
-      <div class="cards">
-        <article class="service-card reveal">
-          <img src="assets/squeegee-detail.jpg" alt="Skraber på vådt vindue" />
-          <div class="card-body">
-            <span>01</span>
-            <h3>Udvendig vinduespudsning</h3>
-            <p>Til dig der bare vil have huset til at se rent og skarpt ud udefra.</p>
-          </div>
-        </article>
-
-        <article class="service-card reveal">
-          <img src="assets/inside-window.jpg" alt="Indvendig vinduespudsning" />
-          <div class="card-body">
-            <span>02</span>
-            <h3>Indvendig vinduespudsning</h3>
-            <p>Godt før gæster, fremvisning, flytning eller når hjemmet bare skal spille.</p>
-          </div>
-        </article>
-
-        <article class="service-card reveal">
-          <img src="assets/modern-home.jpg" alt="Moderne hus med rene vinduer" />
-          <div class="card-body">
-            <span>03</span>
-            <h3>Faste ruter</h3>
-            <p>Vi kan komme fast, så dine ruder ikke når at se beskidte ud igen.</p>
-          </div>
-        </article>
-      </div>
+    <section class="section services" aria-label="Ydelser">
+      <article class="service-card">
+        <span>01</span>
+        <h3>Udvendig pudsning</h3>
+        <p>Til ruder, glaspartier og almindelige vinduer på huse, villaer og rækkehuse.</p>
+      </article>
+      <article class="service-card">
+        <span>02</span>
+        <h3>Indvendig pudsning</h3>
+        <p>Til dig der vil have hele hjemmet til at føles rent, lyst og gennemført.</p>
+      </article>
+      <article class="service-card">
+        <span>03</span>
+        <h3>Faste aftaler</h3>
+        <p>Vi kan komme fast efter aftale, så ruderne bliver holdt pæne året rundt.</p>
+      </article>
+      <article class="service-card">
+        <span>04</span>
+        <h3>Kanter og finish</h3>
+        <p>Vi har fokus på de små detaljer, så resultatet ser ordentligt ud bagefter.</p>
+      </article>
     </section>
 
-    <section class="price-section" id="pris">
-      <div class="price-bg" aria-hidden="true"></div>
-      <div class="price-content reveal">
-        <p class="eyebrow">Fra-pris</p>
-        <h2>Vinduespudsning fra <span>199 kr.</span></h2>
-        <p>Den endelige pris afhænger af antal ruder, adgang, størrelse og om du ønsker indvendigt, udvendigt eller begge dele.</p>
-        <p class="muted">Send adressen på SMS. Hvis huset har mange ruder, kan du sende 2–3 billeder, så giver vi en mere realistisk pris.</p>
-        <a class="btn btn-primary light" href="sms:+4542793362?body=Hej%20MO%20Vinduespudsning%2C%20jeg%20vil%20gerne%20have%20en%20fra-pris.%20Min%20adresse%20er%3A%20">Få fra-pris på SMS</a>
+    <section class="price" id="pris">
+      <div class="price-inner">
+        <p class="kicker">Pris</p>
+        <h2>Fra <span>199 kr.</span></h2>
+        <p>Prisen afhænger af antal ruder, adgangsforhold og om du ønsker udvendigt, indvendigt eller begge dele.</p>
+        <a class="btn btn-light" href="sms:+4542793362?body=Hej%2C%20jeg%20vil%20gerne%20have%20en%20fra-pris%20p%C3%A5%20vinduespudsning.%20Min%20adresse%20er%3A%20">Få fra-pris på SMS</a>
       </div>
     </section>
 
     <section class="section process" id="proces">
-      <div class="section-head reveal">
-        <p class="eyebrow dark">Sådan virker det</p>
-        <h2>Ingen bøvl. Bare send en besked.</h2>
+      <div class="section-title">
+        <p class="kicker dark">Sådan foregår det</p>
+        <h2>3 trin. Så er du i gang.</h2>
       </div>
-
       <div class="steps">
-        <div class="step reveal"><span>01</span><h3>Send adresse</h3><p>Send din adresse på SMS. Billeder hjælper, hvis ruderne er svære at vurdere.</p></div>
-        <div class="step reveal"><span>02</span><h3>Få en pris</h3><p>Du får en fra-pris eller en konkret pris, før vi aftaler arbejdet.</p></div>
-        <div class="step reveal"><span>03</span><h3>Vi kommer</h3><p>Vi pudser ruderne som aftalt, og du betaler efter arbejdet.</p></div>
+        <article>
+          <span>1</span>
+          <h3>Send adresse</h3>
+          <p>Send en SMS med adressen og hvad du ønsker pudset.</p>
+        </article>
+        <article>
+          <span>2</span>
+          <h3>Få fra-pris</h3>
+          <p>Vi giver en realistisk pris og aftaler tidspunkt.</p>
+        </article>
+        <article>
+          <span>3</span>
+          <h3>Vi pudser</h3>
+          <p>Vi udfører arbejdet som aftalt og holder det enkelt.</p>
+        </article>
       </div>
     </section>
 
-    <section class="section gallery-section">
-      <div class="gallery-text reveal">
-        <p class="eyebrow dark">Resultat</p>
-        <h2>Det skal føles rent allerede når man lander på siden.</h2>
-        <p>Derfor er siden bygget til én ting: få folk til at sende en SMS hurtigt. Ingen lange tekster, ingen unødvendige formularer, bare tydelig service og kontakt.</p>
+    <section class="section showcase">
+      <div>
+        <img src="assets/squeegee-detail.jpg" alt="Skraber på vådt vindue" />
       </div>
-      <div class="gallery reveal">
-        <img src="assets/water-drops.jpg" alt="Vanddråber på rent glas" />
-        <img src="assets/modern-home.jpg" alt="Hus med store vinduer" />
-      </div>
-    </section>
-
-    <section class="section faq" id="faq">
-      <div class="section-head reveal">
-        <p class="eyebrow dark">FAQ</p>
-        <h2>Spørgsmål kunder typisk har.</h2>
-      </div>
-      <div class="faq-list">
-        <details class="reveal"><summary>Hvilke typer boliger pudser I?</summary><p>Vi pudser primært huse, villaer og rækkehuse. Mindre erhverv kan også aftales, hvis det passer til vores udstyr og adgang.</p></details>
-        <details class="reveal"><summary>Pudser I høje bygninger?</summary><p>Nej. Vi tager ikke højhuse, rappelling, liftopgaver eller store facadeopgaver i højden.</p></details>
-        <details class="reveal"><summary>Skal jeg være hjemme?</summary><p>Ved udvendig pudsning behøver du ofte ikke være hjemme, hvis der er adgang til ruderne. Det aftaler vi på SMS.</p></details>
-        <details class="reveal"><summary>Kan jeg få fast aftale?</summary><p>Ja. Mange vælger fast aftale hver 4., 6. eller 8. uge, så ruderne holder sig pæne.</p></details>
+      <div>
+        <p class="kicker dark">Kvalitet</p>
+        <h2>Et rent udtryk – uden at gøre det kompliceret.</h2>
+        <p>En god vinduespudsning skal kunne ses med det samme. Rene ruder får boligen til at virke lysere, pænere og mere velholdt.</p>
+        <ul class="check-list">
+          <li>Udvendig og indvendig pudsning</li>
+          <li>Huse, villaer og rækkehuse</li>
+          <li>Fra-pris før aftale</li>
+          <li>Mulighed for faste ruter</li>
+        </ul>
       </div>
     </section>
 
     <section class="contact" id="kontakt">
-      <div class="contact-card reveal">
-        <p class="eyebrow">Kontakt</p>
+      <div class="contact-card">
+        <p class="kicker">Kontakt</p>
         <h2>Vil du have en pris?</h2>
         <p>Ring eller send en SMS med adressen. Så vender vi tilbage hurtigst muligt.</p>
-        <div class="contact-actions">
+        <div class="hero-actions center">
           <a class="btn btn-primary" href="tel:+4542793362">Ring 42 79 33 62</a>
-          <a class="btn btn-secondary dark" href="sms:+4542793362?body=Hej%20MO%20Vinduespudsning%2C%20jeg%20vil%20gerne%20have%20en%20fra-pris.%20Min%20adresse%20er%3A%20">Send SMS</a>
+          <a class="btn btn-ghost light-border" href="sms:+4542793362?body=Hej%2C%20jeg%20vil%20gerne%20have%20en%20fra-pris%20p%C3%A5%20vinduespudsning.%20Min%20adresse%20er%3A%20">Send SMS</a>
         </div>
       </div>
     </section>
@@ -193,7 +173,7 @@
 
   <footer class="footer">
     <div>
-      <img src="assets/logo.svg" alt="MO Vinduespudsning" />
+      <img src="assets/logo.svg" alt="MO Ruder Vinduespudsning" />
       <p>Vinduespudsning til huse, villaer og rækkehuse.</p>
     </div>
     <div>
@@ -201,14 +181,14 @@
       <a href="tel:+4542793362">42 79 33 62</a>
     </div>
     <div>
-      <strong>Vi pudser</strong>
-      <p>Huse · villaer · rækkehuse · faste ruter</p>
+      <strong>Ydelser</strong>
+      <p>Udvendig · indvendig · faste aftaler</p>
     </div>
   </footer>
 
   <div class="mobile-cta" aria-label="Hurtig kontakt">
     <a href="tel:+4542793362">Ring</a>
-    <a href="sms:+4542793362?body=Hej%20MO%20Vinduespudsning%2C%20jeg%20vil%20gerne%20have%20en%20fra-pris.%20Min%20adresse%20er%3A%20">SMS pris</a>
+    <a href="sms:+4542793362?body=Hej%2C%20jeg%20vil%20gerne%20have%20en%20fra-pris%20p%C3%A5%20vinduespudsning.%20Min%20adresse%20er%3A%20">SMS pris</a>
   </div>
 
   <script src="script.js"></script>

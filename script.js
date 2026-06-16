@@ -1,1 +1,16 @@
-const btn=document.querySelector('.menu-toggle');const nav=document.querySelector('.nav');if(btn&&nav){btn.addEventListener('click',()=>{const open=nav.classList.toggle('is-open');btn.setAttribute('aria-expanded',open?'true':'false')});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('is-open');btn.setAttribute('aria-expanded','false')}))}const io=new IntersectionObserver((entries)=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');io.unobserve(entry.target)}})},{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+const menuButton = document.querySelector('.menu-button');
+const menu = document.querySelector('#menu');
+
+if (menuButton && menu) {
+  menuButton.addEventListener('click', () => {
+    const open = menu.classList.toggle('is-open');
+    menuButton.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+
+  menu.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      menu.classList.remove('is-open');
+      menuButton.setAttribute('aria-expanded', 'false');
+    });
+  });
+}
